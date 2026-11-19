@@ -1,0 +1,14 @@
+.document-list-container {
+  padding: 24px;
+}
+
+.document-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.document-list-header h2 {
+  margin: 0;
+}

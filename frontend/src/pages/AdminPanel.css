@@ -1,0 +1,12 @@
+.admin-panel-container {
+  padding: 24px;
+  min-height: calc(100vh - 64px);
+}
+
+.admin-panel-container .ant-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel-container .ant-table {
+  background: white;
+}

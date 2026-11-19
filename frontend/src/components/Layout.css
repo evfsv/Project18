@@ -1,0 +1,52 @@
+.app-layout {
+  min-height: 100vh;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #001529;
+  padding: 0 24px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.app-content {
+  background: #f0f2f5;
+  min-height: calc(100vh - 64px);
+}
+
+.notification-item {
+  width: 300px;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.notification-item:hover {
+  background: #f5f5f5;
+}
+
+.notification-content {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.notification-time {
+  font-size: 12px;
+  color: #999;
+}

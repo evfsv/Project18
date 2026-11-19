@@ -1,0 +1,30 @@
+# ---- Node.js ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json.bak
+
+# ---- IDE / 编辑器 ----
+.vs/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ---- Java / Maven ----
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---- 日志 ----
+*.log
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 嵌套仓库备份（frontend 原有的 .git 改名后保留）----
+.git.bak/
